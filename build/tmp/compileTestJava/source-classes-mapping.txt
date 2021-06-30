@@ -1,0 +1,4 @@
+com/demoqa/automation/runners/studentRegistrationRunner.java
+ com.demoqa.automation.runners.studentRegistrationRunner
+com/demoqa/automation/stepdefinitions/studentRegistrationStepDefinitions.java
+ com.demoqa.automation.stepdefinitions.studentRegistrationStepDefinitions
