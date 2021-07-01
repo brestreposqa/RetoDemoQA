@@ -1,16 +1,16 @@
-com/demoqa/automation/models/DataInjection.java
- com.demoqa.automation.models.DataInjection
+com/demoqa/automation/utils/FileUpload.java
+ com.demoqa.automation.utils.FileUpload
 com/demoqa/automation/pageobjects/HomePage.java
  com.demoqa.automation.pageobjects.HomePage
-com/demoqa/automation/steps/PracticeFormsSteps.java
- com.demoqa.automation.steps.PracticeFormsSteps
+com/demoqa/automation/utils/Excel.java
+ com.demoqa.automation.utils.Excel
 com/demoqa/automation/utils/Javascript.java
  com.demoqa.automation.utils.Javascript
 com/demoqa/automation/pageobjects/PracticeFormsPage.java
  com.demoqa.automation.pageobjects.PracticeFormsPage
 com/demoqa/automation/steps/HomePageSteps.java
  com.demoqa.automation.steps.HomePageSteps
-com/demoqa/automation/utils/Excel.java
- com.demoqa.automation.utils.Excel
-com/demoqa/automation/utils/FileUpload.java
- com.demoqa.automation.utils.FileUpload
+com/demoqa/automation/models/DataInjection.java
+ com.demoqa.automation.models.DataInjection
+com/demoqa/automation/steps/PracticeFormsSteps.java
+ com.demoqa.automation.steps.PracticeFormsSteps

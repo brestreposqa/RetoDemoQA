@@ -25,13 +25,13 @@ public class PracticeFormsSteps {
         practiceForms.setEmailInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 2));
         practiceForms.clickOnMaleGenderRadio();
         practiceForms.setMobileInput(Integer.toString((int) excel.getCellValueInt(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 3)));
-        practiceForms.setBirthDayInput("27 Mar 1997");
-        practiceForms.setSubjectInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 4));
+        practiceForms.setBirthDayInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 4));
+        practiceForms.setSubjectInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 5));
         practiceForms.clickOnSportHobbi();
         practiceForms.setFileInput(FileUpload.filePath(dataInjection.getFileUpload()));
-        practiceForms.setCurrentAddressInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 5));
-        practiceForms.setStateInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 6));
-        practiceForms.setCityInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 7));
+        practiceForms.setCurrentAddressInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 6));
+        practiceForms.setStateInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 7));
+        practiceForms.setCityInput(excel.getCellValue(dataInjection.getFilePath(),dataInjection.getSheetName(), 0, 8));
         practiceForms.clickOnSubmitButton();
     }
 
