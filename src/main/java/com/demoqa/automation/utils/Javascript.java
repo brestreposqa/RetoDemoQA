@@ -12,7 +12,6 @@ public class Javascript {
 
     public  static void scrollDown(WebDriver driver){
         JavascriptExecutor executor=(JavascriptExecutor) driver;
-        //executor.executeScript ("arguments[0].scrollIntoView();", driver.findElements(by));
         executor.executeScript("window.scrollBy(0,200)");
     }
 }
